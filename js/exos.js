@@ -33,8 +33,8 @@ valideReponse(reponse1, solution1)
 /* Exo 3 */
 // Ton code ici...
 let question2 = "Quel est l'âge du capitaine ?";
-let solution2 = "63";
+let solution2 = 63;
 
-let reponse2 = prompt(question2);
+let reponse2 = parseInt(prompt(question2));
 valideReponse(reponse2, solution2)
 alert('Vous avez ' + count + ' bonne(s) réponse(s) !')
