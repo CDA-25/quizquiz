@@ -16,14 +16,16 @@ let solution1 = "La mer Noire";
 // Ton code ici...
 // on stock la reponse dans la variable reponse1 (donc var = le prompt(message))
 let reponse1 = prompt(question1);
+let count = 0;
 
 function valideReponse(reponse, solution) {
     if (reponse === solution) {
         alert("Gagné !")
+        count += 1
 
     } else {
         alert("Perdu...")
-    };
+    }
 }
 
 valideReponse(reponse1, solution1)
@@ -35,6 +37,4 @@ let solution2 = "63";
 
 let reponse2 = prompt(question2);
 valideReponse(reponse2, solution2)
-
-
-
+alert('Vous avez ' + count + ' bonne(s) réponse(s) !')
