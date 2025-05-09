@@ -6,7 +6,8 @@
  */
 
 /* Exo 1 */
-// Ton code ici...
+let question1 = "Quelle mer borde la ville de Sébastopol ?";
+let solution1 = "la mer Noire";
 
 
 /* Exo 2 */
