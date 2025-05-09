@@ -17,12 +17,24 @@ let solution1 = "La mer Noire";
 // on stock la reponse dans la variable reponse1 (donc var = le prompt(message))
 let reponse1 = prompt(question1);
 
-if (reponse1 === solution1) {
-    alert("Gagné !")
+function valideReponse(reponse, solution) {
+    if (reponse === solution) {
+        alert("Gagné !")
 
-} else {
-    alert("Perdu...")
-};
+    } else {
+        alert("Perdu...")
+    };
+}
+
+valideReponse(reponse1, solution1)
 
 /* Exo 3 */
 // Ton code ici...
+let question2 = "Quel est l'âge du capitaine ?";
+let solution2 = "63";
+
+let reponse2 = prompt(question2);
+valideReponse(reponse2, solution2)
+
+
+
